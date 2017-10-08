@@ -12,7 +12,17 @@
 return [
     '__pattern__' => [
         'name' => '\w+',
+        'id' =>'\d+',
     ],
+    'user/index' =>	'index/user/index',
+    'user/create' => 'index/user/create',
+    'create' => 'index/user/create',
+    'user/add' => 'index/user/add',
+    'user/scope'=>'index/user/scope',
+    'user/add_list' => 'index/user/addList',
+    'user/update/:id' => 'index/user/update',
+	'user/delete/:id' => 'index/user/delete',
+	'user/:id'=> 'index/user/read',
     '[hello]'     => [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
         ':name' => ['index/hello', ['method' => 'post']],
