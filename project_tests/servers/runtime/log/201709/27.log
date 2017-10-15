@@ -1,0 +1,66 @@
+---------------------------------------------------------------
+[ 2017-09-27T22:51:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004923s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.020366s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`nickname` , `email` , `birthday`) VALUES ('林云宇' , '279282362@qq.com' , 544896000) [ RunTime:0.001928s ]
+---------------------------------------------------------------
+[ 2017-09-27T22:51:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001657s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007032s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002908s ]
+---------------------------------------------------------------
+[ 2017-09-27T22:51:24+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001719s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.009962s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000933s ]
+---------------------------------------------------------------
+[ 2017-09-27T22:56:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001757s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.033581s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2017-09-27T23:01:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/delete/2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002115s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.006812s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] DELETE FROM `think_user`    WHERE  `id` = 2 [ RunTime:0.000912s ]
+---------------------------------------------------------------
+[ 2017-09-27T23:27:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001948s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.035209s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`nickname` , `email` , `birthday`) VALUES ('林云宇' , '279282362@qq.com' , 0) [ RunTime:0.000778s ]
+---------------------------------------------------------------
+[ 2017-09-27T23:27:31+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001448s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.035709s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`nickname` , `email` , `birthday`) VALUES ('林云宇' , '279282362@qq.com' , 0) [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2017-09-27T23:38:32+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/aa
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/aa
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:40:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:41:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:42:11+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:45:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:45:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:46:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ error ] [0]method not exist:think\db\Query->all
+---------------------------------------------------------------
+[ 2017-09-27T23:48:04+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ error ] [0]method not exist:think\db\Query->all

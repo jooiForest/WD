@@ -1,0 +1,26 @@
+---------------------------------------------------------------
+[ 2017-10-12T22:40:46+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002706s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.008384s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_profile` [ RunTime:0.007628s ]
+[ sql ] [ SQL ] SELECT * FROM `think_profile` WHERE  `user_id` = 6 LIMIT 1 [ RunTime:0.000607s ]
+---------------------------------------------------------------
+[ 2017-10-12T22:43:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/addBook
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002743s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.008715s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000704s ]
+[ error ] [1]Class 'app\index\controller\Book' not found
+---------------------------------------------------------------
+[ 2017-10-12T22:44:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/addbook
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001847s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.034140s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000627s ]
+[ error ] [1]Class 'app\index\controller\Book' not found
+---------------------------------------------------------------
+[ 2017-10-12T22:48:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/addbook
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001897s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.008405s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_book` [ RunTime:0.007832s ]
+[ sql ] [ SQL ] INSERT INTO `think_book` (`title` , `publish_time` , `user_id` , `status` , `create_time` , `update_time`) VALUES ('ThinkPHP5快速入门' , 1462464000 , 1 , 1 , 1507819695 , 1507819695) [ RunTime:0.002370s ]

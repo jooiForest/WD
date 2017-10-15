@@ -1,0 +1,64 @@
+---------------------------------------------------------------
+[ 2017-09-24T15:41:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello?name=111
+[ error ] [0]方法不存在:think\Request->parms
+---------------------------------------------------------------
+[ 2017-09-24T15:41:23+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello/111
+[ error ] [0]方法不存在:think\Request->parms
+---------------------------------------------------------------
+[ 2017-09-24T15:41:29+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello/parm
+[ error ] [0]方法不存在:think\Request->parms
+---------------------------------------------------------------
+[ 2017-09-24T15:43:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello?name=111
+[ error ] [8]Array to string conversion
+---------------------------------------------------------------
+[ 2017-09-24T15:49:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello?name=111
+[ error ] [4]语法错误: unexpected 'var' (T_VAR)
+---------------------------------------------------------------
+[ 2017-09-24T15:49:21+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello?name=111
+[ error ] [1]Call to a member function param() on a non-object
+---------------------------------------------------------------
+[ 2017-09-24T15:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello?name=111
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2017-09-24T15:49:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello?name=111
+[ error ] [8]未定义数组下标: 0
+---------------------------------------------------------------
+[ 2017-09-24T15:59:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello?name=111
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2017-09-24T17:24:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/go
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2017-09-24T17:25:40+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/go
+[ error ] [0]方法参数错误:name
+---------------------------------------------------------------
+[ 2017-09-24T17:26:05+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/go
+[ error ] [1]Call to undefined method app\index\controller\Index::error()
+---------------------------------------------------------------
+[ 2017-09-24T20:44:23+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011105s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1049 Unknown database 'data'
+---------------------------------------------------------------
+[ 2017-09-24T20:45:31+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001846s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] show tables from demo [ RunTime:0.000693s ]
+---------------------------------------------------------------
+[ 2017-09-24T21:02:36+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002114s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'demo.data' doesn't exist
+---------------------------------------------------------------
+[ 2017-09-24T21:03:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001798s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.032027s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2017-09-24T21:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001423s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.008102s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` [ RunTime:0.000413s ]
+[ error ] [4096]Object of class think\response\Json could not be converted to string
+---------------------------------------------------------------
+[ 2017-09-24T21:04:36+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001524s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.008827s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` [ RunTime:0.000800s ]

@@ -36,13 +36,17 @@ namespace app\index\controller;
 // 		return $name;
 // 	}
 // }
-
+use	think\Controller;
 use think\Request;
 use	think\Db;
-class Index {
+class Index	extends	Controller {
 	use	\traits\controller\Jump;
 	public function index(){
-		return "hello world";
+		$data=Db::name('data')->find();
+		$this->assign('result', $data); 
+		// return json($data);
+		return $this->fetch();
+		// return "hello world";
 	}
 	public function hello(){
 		// $request=Request::instance();

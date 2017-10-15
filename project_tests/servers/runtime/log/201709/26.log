@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+[ 2017-09-26T00:17:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003174s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.008133s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2017-09-26T00:25:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/add
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002356s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007285s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`nickname` , `email` , `birthday`) VALUES ('林云宇' , '279282362@qq.com' , 544896000) [ RunTime:0.000913s ]

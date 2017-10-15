@@ -1,0 +1,58 @@
+---------------------------------------------------------------
+[ 2017-10-13T23:44:45+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index.html
+[ error ] [8]未定义变量: result
+---------------------------------------------------------------
+[ 2017-10-13T23:44:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index
+[ error ] [8]未定义变量: result
+---------------------------------------------------------------
+[ 2017-10-13T23:44:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index
+[ error ] [8]未定义变量: result
+---------------------------------------------------------------
+[ 2017-10-13T23:46:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index
+[ error ] [8]未定义变量: result
+---------------------------------------------------------------
+[ 2017-10-13T23:52:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/id/12
+[ error ] [4]语法错误: unexpected '{'
+---------------------------------------------------------------
+[ 2017-10-13T23:52:45+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/id/12
+[ error ] [4]语法错误: unexpected '{'
+---------------------------------------------------------------
+[ 2017-10-13T23:52:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/id/12
+[ error ] [4]语法错误: unexpected '{'
+---------------------------------------------------------------
+[ 2017-10-13T23:53:33+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/id/12
+[ error ] [4]语法错误: unexpected '{', expecting ']'
+---------------------------------------------------------------
+[ 2017-10-13T23:54:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/id/12
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005480s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.025496s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.001838s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-10-13T23:56:06+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001906s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.007809s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000438s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-10-13T23:56:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001757s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.007430s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000621s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-10-13T23:56:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001622s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.007590s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2017-10-13T23:57:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001832s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.033160s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000617s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()
+---------------------------------------------------------------
+[ 2017-10-13T23:58:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001484s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.006011s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000498s ]

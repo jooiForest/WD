@@ -1,0 +1,71 @@
+---------------------------------------------------------------
+[ 2017-10-09T00:01:31+08:00 ] 127.0.0.1 127.0.0.1 GET /user/6
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2017-10-09T00:01:52+08:00 ] 127.0.0.1 127.0.0.1 GET /user/1
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2017-10-09T00:04:31+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004283s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.010116s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001882s ]
+---------------------------------------------------------------
+[ 2017-10-09T00:05:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001817s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.034548s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000656s ]
+[ error ] [0]类的属性不存在:app\index\model\User->project
+---------------------------------------------------------------
+[ 2017-10-09T00:05:41+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001740s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.035023s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000745s ]
+[ error ] [8]未定义变量: profile
+---------------------------------------------------------------
+[ 2017-10-09T00:05:42+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001762s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.010368s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000712s ]
+[ error ] [8]未定义变量: profile
+---------------------------------------------------------------
+[ 2017-10-09T00:05:49+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003064s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.009591s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000676s ]
+[ error ] [8]未定义变量: profile
+---------------------------------------------------------------
+[ 2017-10-09T00:06:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001853s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.034940s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000706s ]
+---------------------------------------------------------------
+[ 2017-10-09T00:07:08+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001463s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.034879s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_profile` [ RunTime:0.008219s ]
+[ sql ] [ SQL ] SELECT * FROM `think_profile` WHERE  `user_id` = 6 LIMIT 1 [ RunTime:0.001063s ]
+---------------------------------------------------------------
+[ 2017-10-09T00:07:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001440s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.009295s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_profile` [ RunTime:0.008629s ]
+[ sql ] [ SQL ] SELECT * FROM `think_profile` WHERE  `user_id` = 6 LIMIT 1 [ RunTime:0.000844s ]
+---------------------------------------------------------------
+[ 2017-10-09T00:08:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001417s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.008968s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000718s ]
+---------------------------------------------------------------
+[ 2017-10-09T00:08:45+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001912s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.035229s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2017-10-09T00:08:55+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001406s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.008697s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_profile` [ RunTime:0.008863s ]
+[ sql ] [ SQL ] SELECT * FROM `think_profile` WHERE  `user_id` = 6 LIMIT 1 [ RunTime:0.000742s ]

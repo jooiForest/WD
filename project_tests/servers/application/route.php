@@ -22,6 +22,7 @@ return [
     'user/add_list' => 'index/user/addList',
     'user/update/:id' => 'index/user/update',
 	'user/delete/:id' => 'index/user/delete',
+    'user/addbook' => 'index/user/addbook',
 	'user/:id'=> 'index/user/read',
     '[hello]'     => [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],

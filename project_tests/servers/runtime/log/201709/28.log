@@ -1,0 +1,58 @@
+---------------------------------------------------------------
+[ 2017-09-28T21:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/aa
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002860s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.008188s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:10:04+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001843s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007599s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `email` = '' [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:10:04+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/279282362@qq.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001966s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.009911s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `email` = '' [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:10:29+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/%E2%80%98279282362@qq.com%E2%80%99
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001802s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.009194s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `email` = '' [ RunTime:0.000731s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:10:29+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/%E2%80%98279282362@qq.com%E2%80%99
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001874s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007398s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `email` = '' [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:10:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001563s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.009083s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `email` = '' [ RunTime:0.000847s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:10:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001914s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007634s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `email` = '' [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:11:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001409s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.033313s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `status` = 0 [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:11:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/
+[ error ] [4]语法错误: unexpected '@', expecting ']'
+---------------------------------------------------------------
+[ 2017-09-28T21:11:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001676s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007695s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `email` = '279282362@qq.com' [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:12:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/user/scope/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001615s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.034125s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `id` = 1 [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2017-09-28T21:26:20+08:00 ] 127.0.0.1 127.0.0.1 POST /public/user/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001855s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.007136s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`nickname` , `email` , `birthday`) VALUES ('88de88' , '88@qq.com' , -2117865600) [ RunTime:0.001233s ]

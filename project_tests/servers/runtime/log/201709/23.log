@@ -1,0 +1,430 @@
+---------------------------------------------------------------
+[ 2017-09-23T13:43:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ error ] [0]方法参数错误:name
+---------------------------------------------------------------
+[ 2017-09-23T13:44:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ error ] [0]方法参数错误:name
+---------------------------------------------------------------
+[ 2017-09-23T13:44:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ error ] [0]方法参数错误:name
+---------------------------------------------------------------
+[ 2017-09-23T14:02:33+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:D:\work\php\web_desktop\trunk\project_tests\servers\public/../application/index\view\index\hello.html
+---------------------------------------------------------------
+[ 2017-09-23T14:04:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:04:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:06:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:07:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:14+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:17+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:19+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:19+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T14:43:19+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [0]模板文件不存在:view/window/index_logo.html
+---------------------------------------------------------------
+[ 2017-09-23T15:02:33+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:02:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:02:47+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:02:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:03:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:03:19+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:03:19+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:03:24+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:03:25+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:03:25+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:04:38+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:04:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:04:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:04:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:14+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:55+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:05:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:06:20+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:06:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:07:03+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:07:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:07:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:08:56+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [4096]Object of class think\db\Query could not be converted to string
+---------------------------------------------------------------
+[ 2017-09-23T15:08:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [4096]Object of class think\db\Query could not be converted to string
+---------------------------------------------------------------
+[ 2017-09-23T15:13:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:13:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:14:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:14:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:14:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:14:24+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:14:25+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:15:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:15:40+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:15:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:01+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:02+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:24+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:16:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:17:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:17:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:17:58+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:18:13+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:18:14+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]Use of undefined constant Db - assumed 'Db'
+---------------------------------------------------------------
+[ 2017-09-23T15:18:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:18:36+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:18:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2017-09-23T15:18:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]未定义变量: data
+---------------------------------------------------------------
+[ 2017-09-23T15:18:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [0]模板文件不存在:D:\work\php\web_desktop\trunk\project_tests\servers\public/../application/index\view\index\index.html
+---------------------------------------------------------------
+[ 2017-09-23T15:18:52+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [0]模板文件不存在:D:\work\php\web_desktop\trunk\project_tests\servers\public/../application/index\view\index\index.html
+---------------------------------------------------------------
+[ 2017-09-23T15:19:36+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:19:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:23:25+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:25:54+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:26:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:26:11+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:26:24+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:26:25+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:27:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:27:28+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:28:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:28:23+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:28:23+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:28:23+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:31:50+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:31:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:32:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1]Call to undefined function app\index\controller\name()
+---------------------------------------------------------------
+[ 2017-09-23T15:32:13+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1]Call to undefined function app\index\controller\name()
+---------------------------------------------------------------
+[ 2017-09-23T15:32:40+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:48:55+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:48:57+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T15:49:06+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T16:00:44+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:03:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T16:04:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:05:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:07:18+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1]Class 'Think\Db' not found
+---------------------------------------------------------------
+[ 2017-09-23T16:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:10:39+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:11:00+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:11:32+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:12:12+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:14:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2017-09-23T16:27:19+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2017-09-23T16:28:30+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001784s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.009763s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000834s ]
+[ error ] [0]模板文件不存在:D:\work\php\web_desktop\trunk\project_tests\servers\public/../application/index\view\index\index.html
+---------------------------------------------------------------
+[ 2017-09-23T16:31:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002256s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.020070s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2017-09-23T21:55:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001788s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.034563s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2017-09-23T21:56:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T21:56:15+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T21:56:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T21:56:27+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T21:56:28+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T21:56:34+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002211s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.008309s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2017-09-23T22:02:04+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/hello
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T22:02:10+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/hello
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T22:02:22+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/hello
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T22:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/hello
+[ error ] [8]未定义数组下标: 1
+---------------------------------------------------------------
+[ 2017-09-23T22:05:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/hello?name=aa
+[ error ] [0]方法参数错误:name
+---------------------------------------------------------------
+[ 2017-09-23T22:05:51+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/hello?name=aa
+[ error ] [0]方法参数错误:name
+---------------------------------------------------------------
+[ 2017-09-23T22:12:37+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index/1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001834s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.007913s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2017-09-23T22:12:41+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php/index/index/index/2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001624s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_data` [ RunTime:0.033622s ]
+[ sql ] [ SQL ] SELECT * FROM `think_data` LIMIT 1 [ RunTime:0.000459s ]

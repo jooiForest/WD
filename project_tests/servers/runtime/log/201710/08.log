@@ -1,0 +1,7 @@
+---------------------------------------------------------------
+[ 2017-10-08T17:15:56+08:00 ] 127.0.0.1 127.0.0.1 POST /user/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002160s ] mysql:dbname=demo;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.011590s ]
+[ sql ] [ SQL ] INSERT INTO `think_user` (`nickname` , `email` , `birthday` , `status` , `create_time` , `update_time`) VALUES ('linyunyu' , 'linyunyu@qq.com' , 544896000 , 1 , 1507454156 , 1507454156) [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_profile` [ RunTime:0.010255s ]
+[ sql ] [ SQL ] INSERT INTO `think_profile` (`truename` , `birthday` , `address` , `email` , `user_id`) VALUES ('林耘宇' , 541872000 , '中国成都' , 'thinkphp@qq.com' , 6) [ RunTime:0.000688s ]
